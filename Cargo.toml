@@ -1,0 +1,18 @@
+[owner]
+name = "Nadim"
+
+[package]
+name = "broken-os"
+version = "0.1.0"
+authors = ["nadim1992 <nadim0988@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
